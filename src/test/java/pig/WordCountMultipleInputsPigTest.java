@@ -14,7 +14,8 @@ public class WordCountMultipleInputsPigTest extends PigTestBase {
 
     @Test
     public void testWordCount() throws ParseException, IOException {
-        PigTest test = super.createDefaultTest(new String[]{},"./src/main/pig/wordcount_multiple_inputs.pig");
+        PigTest test = super.createDefaultTest(new String[]{}
+                "./src/main/pig/wordcount_multiple_inputs.pig");
 
         String[] input1 = {
                 "hello hello hello",
