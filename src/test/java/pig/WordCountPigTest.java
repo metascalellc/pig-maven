@@ -14,13 +14,16 @@ public class WordCountPigTest {
     @Test
     public void testWordCount() throws IOException, ParseException {
         PigTest test = new PigTest("./src/main/pig/wordcount.pig", new String[]{});
+
         String[] input = {
                 "hello hello hello",
                 "hello hello hello"
         };
+
         String[] output = {
                 "(6,hello)"
         };
+
         test.assertOutput("A", input, "D", output);
     }
 }
