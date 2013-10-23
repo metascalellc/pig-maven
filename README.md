@@ -1,6 +1,8 @@
 pig-maven
 =========
 
+This example is related to the following blog about PigUnit: http://www.metascale.com/resources/blogs/196-better-faster-and-simpler-pig-development-using-pigunit
+
 A sample maven-enabled pig project complete with example of unit tests on UDF using junit and pig scripts using pigunit. 
 
 Use standard maven commands to build and test.
